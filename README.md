@@ -1,11 +1,11 @@
-# @reportportal/agent-js-jest
+# agent-js-jest-reportportal
 
 A Jest reporter that uploads the results to a [ReportPortal](http://reportportal.io/) server.
 
 ## Installation
 
 ```shell
-npm install --save-dev @reportportal/agent-js-jest
+npm install --save-dev agent-js-jest-reportportal
 ```
 
 ## Usage
@@ -146,14 +146,3 @@ Example:
 Optional property.<br/>
 The object with `agent` property for configure [http(s)](https://nodejs.org/api/https.html#https_https_request_url_options_callback) client, may contain other client options eg. `timeout`.<br/>
 Visit [client-javascript](https://github.com/reportportal/client-javascript) for more details.
-
-# Copyright Notice
-
-Licensed under the [Apache License v2.0](LICENSE)
-
-# Contribution
-
-This code was based on the [jest-junit](https://github.com/jest-community/jest-junit)
-and adapted by team members of [Ontoforce](https://www.ontoforce.com) for the
-ReportPortal upload. Ontoforce contributed this effort as Open Source to the
-ReportPortal project team.
